@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { Component } from 'react';
 import API from '../utils/API';
 import Search from './Search.js';
 import Employee from './Employee.js';
 
-class Directory extends React.Component {
+class Directory extends Component {
 
     state = {
         employees: [],
